@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">babyHarmonyApplication</string>
+    <string name="Bienvenida">Bienvenido! </string>
+    <string name="entrar">Ingresar </string>
 </resources>

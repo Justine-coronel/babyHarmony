@@ -71,21 +71,32 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="10dp">
+                android:orientation="horizontal"
+
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/phot"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+
+                    android:layout_marginEnd="20dp"/>
 
                 <ImageButton
                     android:id="@+id/select_image_button"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:adjustViewBounds="true"
                     android:background="?attr/selectableItemBackground"
                     android:contentDescription="Seleccionar imagen"
                     android:onClick="onSelectImageButtonClick"
-                    android:padding="16dp"
+                    android:padding="8dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/camera_plus" />
+                    android:src="@drawable/camera_plus"
+                    android:layout_gravity="center"/>
             </LinearLayout>
 
             <TextView

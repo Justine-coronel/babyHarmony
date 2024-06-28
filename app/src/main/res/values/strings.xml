@@ -33,7 +33,7 @@
     <string name="emailTitu">email: </string>
     <string name="nombreBebe">nombre de tu bebe</string>
     <string name="fechadenacimientoTitu"> Fecha de Nacimiento:</string>
-    <string name="bioTitu"> Biografia: </string>
+
     <string name="biografiaUsuario">   </string>
     <string name="edadUsuario">Edad: </string>
     <string name="telefonoUsuario">Telefono: </string>
@@ -93,6 +93,8 @@
 
     <string name="limpi">Limpiar todas las notificaciones </string>
     <string name="home">Home </string>
+    <string name="biotitu">Biografía</string>
+    <string name="biografiahint">Escribe tu biografía aquí...</string>
     <string name=""> </string>
     <string name=""> </string>
     <string name=""> </string>

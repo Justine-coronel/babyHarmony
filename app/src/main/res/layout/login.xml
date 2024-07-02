@@ -42,6 +42,7 @@
         android:textColor="@color/azu"
         android:layout_gravity="center_horizontal"
         android:text="@string/olvidaste"
+        android:onClick="olvidarpagina"
          />
 
     <Button
@@ -51,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/amarilo"
+        android:onClick="homepage"
         android:text="@string/entrar2"
         android:textSize="19dp"
         android:textColor="@android:color/white" />
@@ -61,6 +63,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:text="@string/nuevoUsuario"
+        android:onClick="registrase"
          />
 
     <Button
@@ -70,6 +73,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/azu"
+        android:onClick="homepage"
         android:text="@string/entrarInvitado"
         android:textColor="@android:color/white" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/navigation_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:onClick="navigateBack"
+            android:scaleType="fitCenter"
+            android:src="@drawable/patra" />
+
+    </FrameLayout>
 </LinearLayout>

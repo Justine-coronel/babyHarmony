@@ -95,24 +95,20 @@
     <string name="home">Home </string>
     <string name="biotitu">Biografía</string>
     <string name="biografiahint">Escribe tu biografía aquí...</string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
-    <string name=""> </string>
 
+    <string name="contenido">Contenido </string>
+    <string name="titulocontenido">titulo </string>
+    <string name="textoContenido">Lorem isum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dpsum dolor sit amet, consectetur adipiscing elit. Duis at magna lacinia, rutrum nibh et, fermentum turpis. Curabitur aliquet tristique luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut dignissim sodales libero, a condimentum dolor ornare quis. Vestibulum enim odio, ornare fringilla sodales eget, semper eget massa. In hac habitasse platea dictumst. Phasellus imperdiet et magna vitae pulvinar. </string>
 
-
-
-
+    <string name="titu5">Nueva Contraseña</string>
+    <string name="nueva">Ingresa tu nueva contraseña:</string>
+    <string name="nuevanu">confirma tu nueva contraseña:</string>
+    <string name="cont">al menos 8 caracteres</string>
+    <string name="doctor">Dr. James, MD</string>
+    <string name="leer">leer mas...</string>
+    <string name="tema1">El descanso óptimo del bebé"</string>
+    <string name="tema2">El mejor desayuno de tu hijo</string>
+    <string name="tema3">Como cargar de forma correcta a tu bebe</string>
 
 
 

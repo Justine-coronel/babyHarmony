@@ -25,7 +25,7 @@
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:adjustViewBounds="true"
-                android:onClick="onBackPressed" />
+                android:onClick="navigateBack" />
 
             <TextView
                 android:id="@+id/toolbar_title"
@@ -78,6 +78,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:onClick="irperfil"
                     android:src="@drawable/image" />
 
             </LinearLayout>
@@ -92,11 +93,13 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/priva" />
+                    android:text="@string/priva"
+                    />
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:onClick="terminos"
                     android:src="@drawable/image" />
 
             </LinearLayout>

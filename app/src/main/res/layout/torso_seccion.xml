@@ -19,7 +19,7 @@
             android:layout_margin="16dp"
             android:adjustViewBounds="true"
             android:background="@android:color/transparent"
-            android:onClick="onBackPressed"
+            android:onClick="navigateBack"
             android:scaleType="fitCenter"
             android:src="@drawable/patra"
             android:layout_gravity="start|center_vertical" />
@@ -43,6 +43,7 @@
             android:layout_marginEnd="9dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/settings"
+            android:onClick="navigateSettings"
             android:scaleType="centerInside"
             android:adjustViewBounds="true" />
     </androidx.appcompat.widget.Toolbar>
@@ -59,7 +60,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="560dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_below="@id/header_layout"
         android:padding="16dp">
 
@@ -80,6 +82,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:onClick="pecho"
                     android:src="@drawable/pecho_bebe" />
 
                 <TextView
@@ -104,6 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:onClick="barriga"
                     android:src="@drawable/barriga_bebe" />
 
                 <TextView
@@ -128,12 +132,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:onClick="espalda"
                     android:src="@drawable/espalda_bebe" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+
                     android:text="@string/espalda"
                     android:textColor="#FFFF00"
                     android:textSize="24sp" />

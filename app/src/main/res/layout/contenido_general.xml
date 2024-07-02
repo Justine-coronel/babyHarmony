@@ -28,7 +28,7 @@
             android:id="@+id/seccion_aprender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ojos"
+            android:text="@string/contenido"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Titulo_Contenido"
+            android:text="@string/titulocontenido"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:letterSpacing="0.05"
                 android:lineSpacingExtra="4dp"
-                android:text="Lorem isum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dsum dolor sit amet, consectetur adipiscing elit. Dpsum dolor sit amet, consectetur adipiscing elit. Duis at magna lacinia, rutrum nibh et, fermentum turpis. Curabitur aliquet tristique luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut dignissim sodales libero, a condimentum dolor ornare quis. Vestibulum enim odio, ornare fringilla sodales eget, semper eget massa. In hac habitasse platea dictumst. Phasellus imperdiet et magna vitae pulvinar." />
+                android:text="@string/textoContenido" />
         </ScrollView>
 
     </LinearLayout>

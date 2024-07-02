@@ -6,10 +6,6 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -21,8 +17,114 @@
         android:theme="@style/Theme.BabyHarmonyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".antebrazo"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".mano"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".hombro"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".pie"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".muslos"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".rodilla"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".barriga"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".espalda"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".pecho"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".cabello"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ojos"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".nariz"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".torso"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".piernas"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".brazos"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".cabeza"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".perfilCli"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".mibebeCli"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".aprenderCli"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".homepagina"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".settings"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".registrase"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".olvidarcontrasena"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".terminosycondiciones"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".inicio"
+            android:exported="false">
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
